@@ -1,0 +1,4 @@
+生成密钥
+
+在资源管理器右键菜单，选择git bash，打开进入bash界面，执行ssh-keygen命令，生成密钥。在你的C:\Users\你的用户名\.ssh\目录，就会出现一个id_rsa.pub文件，即公钥。
+把这个重命名为你的姓名拼音，例如wangjian.pub，email给git管理员，以开通git服务器项目访问权限。
